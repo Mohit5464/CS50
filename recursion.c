@@ -1,10 +1,12 @@
 #include <stdio.h>
 #include <cs50.h>
 
+void draw(int n);
+
 int main(void)
 {
     int n = get_int("Enter the Numbers:");
-    draw(n)
+    draw(n);
 }
 
 void draw(int n)
